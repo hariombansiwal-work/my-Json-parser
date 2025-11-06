@@ -1,0 +1,22 @@
+# Compiled object files
+*.o
+
+# Executables
+json_parser_example
+
+# Build artifacts
+*.a
+*.so
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
