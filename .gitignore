@@ -3,11 +3,21 @@
 
 # Executables
 json_parser_example
+json_parser_tests
 
 # Build artifacts
 *.a
 *.so
 *.dylib
+
+# CMake
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
 
 # IDE files
 .vscode/
@@ -19,4 +29,9 @@ json_parser_example
 # OS files
 .DS_Store
 Thumbs.db
+
+# Test artifacts
+*.gcov
+*.gcda
+*.gcno
 
