@@ -97,4 +97,3 @@ std::string name = root.asObject()["user"].asObject()["name"].asString();
 ## License
 
 This is a simple educational implementation. Feel free to use and modify as needed.
-
